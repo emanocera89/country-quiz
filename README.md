@@ -24,6 +24,9 @@ Desafío: crear una aplicación 'Quiz' de países utilizando una API. Utilizar b
 API: https://restcountries.com/. Utilice datos de la API para crear preguntas y respuestas.
 
 Figma: https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1/Country-Quiz?node-id=1%3A2&mode=dev
+
+Deploy:  <a  href="https://countryquiz082023.netlify.app/"  target="_blank">https://countryquiz082023.netlify.app/</a>.
+
 <!-- TABLE OF CONTENTS -->
 
 
@@ -33,7 +36,6 @@ Se utilizaron las siguientes tecnologías para resolver el desafío:
 - React
 - Typescript
 - Tailwind
-
 
 ## Instalación
 
