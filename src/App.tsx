@@ -18,11 +18,10 @@ function App() {
     fetch('https://restcountries.com/v3.1/all')
       .then(response => response.json())
       .then(data => {
-        //console.log(data)
         initialData.current = data;
-        //setCountries(getRandomOptions(data));
         getRandomOptions(data);
       })
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getRandomOptions = (data: Country[]) => {
